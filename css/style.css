@@ -837,7 +837,7 @@ Blog Section
   margin: 0;
   padding: 15px;
   background: #ededed;
-  z-index: 102;
+  z-index: 9;
 }
 
 .blog-right .blog-title h2 {
@@ -990,11 +990,12 @@ Footer-Section
   height: 40px;
   background: #212121;
   position: fixed;
-  right: 60px;
+  right: 20px;
   bottom: 30px;
   border-radius: 10px;
   text-align: center;
   display: none;
+  z-index: 99999;
 }
 
 .scroll-up a {

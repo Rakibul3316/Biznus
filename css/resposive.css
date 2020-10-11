@@ -1,13 +1,12 @@
 /* XL Device :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
+  .team {
+    padding-top: 130px;
+  }
 }
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-  .about {
-    margin-top: -70px;
-  }
-
   .sec-title h2 {
     font-size: 28px;
   }
@@ -15,6 +14,40 @@
   .about-content .abt-text {
     margin-top: 20px;
     margin-bottom: 25px;
+  }
+
+  .slider-content h1 {
+    font-size: 50px;
+  }
+
+  .slider-content .para-1 {
+    font-size: 20px;
+  }
+
+  .slider-content .para-2 {
+    margin-bottom: 45px;
+  }
+
+  .about {
+    margin-top: -70px;
+  }
+
+  .we-img img {
+    max-width: 112%;
+  }
+
+  .we-do {
+    padding-bottom: 40px;
+  }
+
+  .banner-content .our-btn {
+    font-size: 16px;
+    padding: 26px 80px;
+  }
+
+  .footer .widget-one {
+    padding-top: 100px;
+    padding-bottom: 117px;
   }
 }
 
@@ -27,10 +60,150 @@
   .top-right ul li {
     margin-right: 16px;
   }
+
+  .navbar-brand img {
+    width: 130px;
+  }
+
+  .menu-bar .navbar-light .navbar-nav li a {
+    margin-right: 20px;
+  }
+
+  .slider-content .para-1 {
+    font-size: 14px;
+  }
+
+  .slider-content h1 {
+    font-size: 35px;
+  }
+
+  .slider-content .para-2 {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+
+  .our-btn {
+    padding: 10px 24px;
+    font-size: 11px;
+  }
+
+  .slider-btn .our-btn {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .about {
+    margin-top: 0;
+  }
+
+  .about-content {
+    padding-top: 48px;
+  }
+
+  .abt-btn {
+    margin-bottom: 20px;
+  }
+
+  .about-content .abt-text p {
+    font-size: 13px;
+  }
+
+  .we-do {
+    padding-bottom: 40px;
+  }
+
+  .our-nav-item li a {
+    padding: 25px 0;
+  }
+
+  .banner-content .our-btn {
+    font-size: 14px;
+    padding: 20px 41px;
+  }
+
+  .team {
+    padding-top: 110px;
+  }
+
+  .team-content h4 {
+    font-size: 16px;
+  }
+
+  .team-content p {
+    font-size: 11px;
+  }
+
+  .social ul {
+    padding: 10px 0px;
+  }
+
+  .social ul li a {
+    padding: 0 8px;
+    font-size: 14px;
+  }
+
+  .blog-item {
+    margin-bottom: 25px;
+  }
+
+  .blog-title h2 {
+    font-size: 27px;
+  }
+
+  .blog-right .blog-title {
+    padding: 11px;
+  }
+
+  .blog-right .blog-title h2 {
+    font-size: 12px;
+  }
+
+  .author {
+    font-size: 11px;
+  }
+
+  .footer .widget {
+    padding-bottom: 50px;
+  }
+
+  .footer .widget-one {
+    padding-top: 117px;
+    padding-bottom: 150px;
+  }
+
+  .widget-logo img {
+    width: 80%;
+  }
+
+  .widget-social ul {
+    display: block;
+  }
+
+  .widget-social ul li {
+    width: 50%;
+    float: left;
+  }
+
+  .widget-social ul li a {
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
 }
 
 /* Extra small Device. */
 @media (max-width: 767px) {
+  .top-bar {
+    display: none;
+  }
+
+  .fixed .menu-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 999;
+  }
   .top-left ul {
     display: block;
   }
@@ -42,8 +215,117 @@
   .top-right ul {
     padding-top: 20px;
   }
+
+  .navbar-brand img {
+    width: 125px;
+  }
+
+  .about {
+    margin-top: 0;
+  }
+
+  .abt-img {
+    background: none;
+  }
+
+  .abt-img img {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 70%;
+  }
+
+  .about-content {
+    padding-top: 48px;
+  }
+
+  .abt-btn {
+    margin-bottom: 20px;
+  }
+
+  .we-do {
+    padding-bottom: 40px;
+  }
+
+  .we-img img {
+    display: none;
+  }
+
+  .our-nav-item li a {
+    padding: 25px 0;
+    font-size: 16px;
+  }
+
+  .banner-content .our-btn {
+    font-size: 11px;
+    padding: 18px 24px;
+  }
+
+  .big-banner h2 {
+    font-size: 22px;
+  }
+
+  .team-member {
+    margin-bottom: 20px;
+  }
+
+  .footer .widget {
+    padding-bottom: 50px;
+  }
 }
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider {
+    padding-top: 56px;
+  }
+
+  .slider-content .para-1 {
+    font-size: 13px;
+  }
+
+  .slider-content h1 {
+    font-size: 32px;
+  }
+
+  .slider-content .para-2 {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  .our-btn {
+    padding: 8px 17px;
+    font-size: 10px;
+  }
+
+  .slider-arrow .left-arrow a,
+  .slider-arrow .right-arrow a {
+    font-size: 27px;
+  }
+
+  .slider-arrow .left-arrow {
+    left: 15px;
+  }
+
+  .slider-arrow .right-arrow {
+    right: 15px;
+  }
+
+  .slider-bullet {
+    bottom: 15px;
+  }
+
+  .slider-bullet li {
+    width: 6px;
+    height: 6px;
+  }
+
+  .slider-btn .our-btn {
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+
+  .we-img img {
+    width: 100%;
+  }
 }
